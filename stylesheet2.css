@@ -1,0 +1,25 @@
+body{
+    background-color: #d7e4c0;
+}
+h1{
+    text-align: center;
+}
+.food{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box{
+    width: 20%;
+    border: 1px solid #b3a398;
+    height: 200px;
+    display: flex;
+
+}
+.b1{
+
+    flex-direction: column;
+}
+p{
+    font-size: 2em;
+}

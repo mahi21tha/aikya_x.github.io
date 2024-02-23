@@ -1,0 +1,90 @@
+
+@media(max-width : 380px){
+    body{
+          background-image: url("phone.avif");
+          background-size: cover;
+          height: 650px;
+          width: 380px;
+    }
+    .navbar{
+        height: 15vh;
+        display: flex;
+        margin: 0%;
+      
+    }
+    .logo{
+        font-family: 'protest revolution';
+        font-size: 2em;
+        color: #fefbf6;
+        padding-left: 10%;
+        animation: logo 3s linear 0s infinite normal;
+    }
+    .settings{
+        display: flex;
+        color: rgb(194, 208, 198);
+        align-items: center;
+        font-size: 150%;
+
+    }
+    .one{
+       padding-left: 25%;
+    }
+    #two{
+        position: relative;
+        top: 50px;
+        left: 50px;
+        color: rgb(67, 118, 141);
+        font-size: 50px;
+    }
+    #three{
+        color: aliceblue;
+    }
+   
+    
+}
+@media(min-width : 400px){
+    body{
+        background-image : url("pc1.avif");
+        background-size: cover;
+        height: 700px;
+        width: 100%;
+        margin: 0%;
+    }
+    .navbar{
+        height: 15vh;
+        display: flex;
+        margin: 0%;
+     
+    }
+    .logo{
+        font-family: 'protest revolution';
+        font-size: 4em;
+        padding-left: 10%;
+        color: #fefbf6;
+        animation: logo 3s linear 0s infinite normal;
+        width: 40%;
+        
+    }
+    .settings{
+        display: flex;
+        color: rgb(194, 208, 198);
+        align-items: center;
+        font-size: 150%;
+
+    }
+    .one{
+       padding-left: 25%;
+    }
+    #two{
+        position: relative;
+        top: 70px;
+        left: 100px;
+        color: rgb(92, 5, 92);
+        font-size: 100px;
+    }
+
+}
+@keyframes logo{
+    from{color :#fefbf6}
+    to{color: #fba834;}
+}
